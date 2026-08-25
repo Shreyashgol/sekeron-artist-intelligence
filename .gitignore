@@ -1,2 +1,6 @@
 .DS_Store
-
+.env
+venv
+data/
+debug/
+src/__pycache__/
