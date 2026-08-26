@@ -1,12 +1,12 @@
 {
-  "brief_id": "01_cafe_music",
+  "brief_id": "01_cafe_music_whatsapp",
   "delta": {
     "previous_requirements": [
-      "live music",
-      "background",
-      "acoustic",
-      "Friday evening",
-      "7 PM to 10 PM"
+      "acoustic music",
+      "background music",
+      "Hindi/English both fine",
+      "slightly lively bit later optional",
+      "time 7 PM to 10 PM next Friday"
     ],
     "new_information": [
       "launch night",
@@ -30,12 +30,12 @@
     ]
   },
   "original_ranking": [
-    "M01",
-    "M03"
+    "M03",
+    "M05"
   ],
   "updated_ranking": [
     {
-      "artist_id": "M01",
+      "artist_id": "M03",
       "original_rank": 1,
       "new_rank": 1,
       "score_change": 0.0,
@@ -46,7 +46,7 @@
       "explanation": "Maintained or dropped due to lack of strong performance evidence."
     },
     {
-      "artist_id": "M03",
+      "artist_id": "M05",
       "original_rank": 2,
       "new_rank": 2,
       "score_change": 0.0,
@@ -57,7 +57,7 @@
       "explanation": "Maintained or dropped due to lack of strong performance evidence."
     },
     {
-      "artist_id": "M04",
+      "artist_id": "M02",
       "original_rank": null,
       "new_rank": 3,
       "score_change": 0.0,
@@ -68,7 +68,7 @@
       "explanation": "Maintained or dropped due to lack of strong performance evidence."
     },
     {
-      "artist_id": "M05",
+      "artist_id": "M01",
       "original_rank": null,
       "new_rank": 4,
       "score_change": 0.0,
@@ -79,7 +79,7 @@
       "explanation": "Maintained or dropped due to lack of strong performance evidence."
     },
     {
-      "artist_id": "M02",
+      "artist_id": "M04",
       "original_rank": null,
       "new_rank": 5,
       "score_change": 0.0,

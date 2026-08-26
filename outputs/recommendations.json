@@ -49,6 +49,7 @@
           }
         ],
         "trade_offs": [
+          "Doesn't specialize in product photography",
           "Doesn't specialize in product photography"
         ],
         "unknowns": [
@@ -112,7 +113,8 @@
           }
         ],
         "trade_offs": [
-          "Doesn't specialize in product photography"
+          "Doesn't specialize in product photography",
+          "Artist does not specialize in product photography"
         ],
         "unknowns": [
           {
@@ -129,6 +131,329 @@
         ]
       }
     ],
-    "improvement_questions": []
+    "improvement_questions": [
+      {
+        "question": "Can the artist provide a sample of recent product photography to assess quality and style consistency?",
+        "why_it_matters": "Product photography expertise is a trade\u2011off; a sample would confirm suitability for the 4 products required.",
+        "affected_ranking_factors": [
+          "product photography specialization"
+        ]
+      },
+      {
+        "question": "What is the artist\u2019s turnaround time for a 4\u2011product shoot with basic retouching?",
+        "why_it_matters": "The hirer needs selections in 2 days; confirming turnaround ensures schedule feasibility.",
+        "affected_ranking_factors": [
+          "delivery time"
+        ]
+      }
+    ]
+  },
+  {
+    "brief_id": "03_vertical_video_email",
+    "top_candidates": [
+      {
+        "artist_id": "VO5",
+        "total_score": 40.0,
+        "factor_scores": {
+          "base_match": 50.0,
+          "confidence_multiplier": 0.8
+        },
+        "matched_requirements": [],
+        "unmatched_requirements": [],
+        "supporting_evidence": [
+          {
+            "source_file": "artist_profiles/video_editors/VO5_Roshan/media/4320_Samsung_Event_Videography.mp4",
+            "media_id": "4320_Samsung_Event_Videography.mp4",
+            "source_type": "video",
+            "timestamp": null,
+            "observation": "Demonstrates capability from artist_profiles/video_editors/VO5_Roshan/media/4320_Samsung_Event_Videography.mp4",
+            "supports": [
+              "generic capability"
+            ],
+            "strength": "medium"
+          },
+          {
+            "source_file": "artist_profiles/video_editors/VO5_Roshan/media/4321_Gym_Videography.mov",
+            "media_id": "4321_Gym_Videography.mov",
+            "source_type": "video",
+            "timestamp": null,
+            "observation": "Demonstrates capability from artist_profiles/video_editors/VO5_Roshan/media/4321_Gym_Videography.mov",
+            "supports": [
+              "generic capability"
+            ],
+            "strength": "medium"
+          },
+          {
+            "source_file": "artist_profiles/video_editors/VO5_Roshan/media/4322_Music_Video.mov",
+            "media_id": "4322_Music_Video.mov",
+            "source_type": "video",
+            "timestamp": null,
+            "observation": "Demonstrates capability from artist_profiles/video_editors/VO5_Roshan/media/4322_Music_Video.mov",
+            "supports": [
+              "generic capability"
+            ],
+            "strength": "medium"
+          }
+        ],
+        "trade_offs": [],
+        "unknowns": [
+          {
+            "dimension": "cinematography",
+            "reason": "No evidence directly demonstrates cinematography capability."
+          },
+          {
+            "dimension": "videography",
+            "reason": "Evidence provided is labeled generic and does not confirm videography capability."
+          },
+          {
+            "dimension": "video editing",
+            "reason": "No direct evidence of video editing demonstrated."
+          },
+          {
+            "dimension": "sound design",
+            "reason": "No evidence of sound design capability."
+          },
+          {
+            "dimension": "direction",
+            "reason": "No evidence of direction capability."
+          }
+        ],
+        "confidence": {
+          "level": "medium",
+          "reason": "Some demonstrated capabilities."
+        },
+        "assumptions": [
+          "Assuming they are available on the requested date"
+        ]
+      },
+      {
+        "artist_id": "V02",
+        "total_score": 40.0,
+        "factor_scores": {
+          "base_match": 50.0,
+          "confidence_multiplier": 0.8
+        },
+        "matched_requirements": [],
+        "unmatched_requirements": [],
+        "supporting_evidence": [
+          {
+            "source_file": "artist_profiles/video_editors/V02_Rehman_Ali/media/Video-23970.mp4",
+            "media_id": "Video-23970.mp4",
+            "source_type": "video",
+            "timestamp": null,
+            "observation": "Demonstrates capability from artist_profiles/video_editors/V02_Rehman_Ali/media/Video-23970.mp4",
+            "supports": [
+              "generic capability"
+            ],
+            "strength": "medium"
+          },
+          {
+            "source_file": "artist_profiles/video_editors/V02_Rehman_Ali/media/Video-41797.mp4",
+            "media_id": "Video-41797.mp4",
+            "source_type": "video",
+            "timestamp": null,
+            "observation": "Demonstrates capability from artist_profiles/video_editors/V02_Rehman_Ali/media/Video-41797.mp4",
+            "supports": [
+              "generic capability"
+            ],
+            "strength": "medium"
+          },
+          {
+            "source_file": "artist_profiles/video_editors/V02_Rehman_Ali/media/Video-5523.mp4",
+            "media_id": "Video-5523.mp4",
+            "source_type": "video",
+            "timestamp": null,
+            "observation": "Demonstrates capability from artist_profiles/video_editors/V02_Rehman_Ali/media/Video-5523.mp4",
+            "supports": [
+              "generic capability"
+            ],
+            "strength": "medium"
+          }
+        ],
+        "trade_offs": [],
+        "unknowns": [
+          {
+            "dimension": "full_portfolio",
+            "reason": "Missing media"
+          }
+        ],
+        "confidence": {
+          "level": "medium",
+          "reason": "Some demonstrated capabilities."
+        },
+        "assumptions": [
+          "Assuming they are available on the requested date"
+        ]
+      }
+    ],
+    "improvement_questions": [
+      {
+        "question": "Can the artist provide examples of sound design work to ensure the reel\u2019s audio quality meets the energetic yet clean requirement?",
+        "why_it_matters": "Sound design directly affects the perceived energy and clarity of the reel, which is a key hirer requirement.",
+        "affected_ranking_factors": [
+          "sound design"
+        ]
+      },
+      {
+        "question": "Does the artist have experience with music licensing for social media platforms, and can they suggest alternative tracks if the event\u2019s original song is not legally usable on Instagram?",
+        "why_it_matters": "Legal compliance for music usage is mandatory for Instagram reels and impacts project feasibility.",
+        "affected_ranking_factors": [
+          "legal compliance"
+        ]
+      }
+    ]
+  },
+  {
+    "brief_id": "01_cafe_music_whatsapp",
+    "top_candidates": [
+      {
+        "artist_id": "M03",
+        "total_score": 40.0,
+        "factor_scores": {
+          "base_match": 40.0,
+          "confidence_multiplier": 1.0
+        },
+        "matched_requirements": [],
+        "unmatched_requirements": [
+          "Acoustic format"
+        ],
+        "supporting_evidence": [
+          {
+            "source_file": "artist_profiles/musicians/M03_Raghav_Sen/media/alanajordan-letting-go-342368.mp3",
+            "media_id": "alanajordan-letting-go-342368.mp3",
+            "source_type": "audio",
+            "timestamp": null,
+            "observation": "Demonstrates capability from artist_profiles/musicians/M03_Raghav_Sen/media/alanajordan-letting-go-342368.mp3",
+            "supports": [
+              "generic capability"
+            ],
+            "strength": "medium"
+          },
+          {
+            "source_file": "artist_profiles/musicians/M03_Raghav_Sen/media/folk_acoustic-summer-walk-152722.mp3",
+            "media_id": "folk_acoustic-summer-walk-152722.mp3",
+            "source_type": "audio",
+            "timestamp": null,
+            "observation": "Demonstrates capability from artist_profiles/musicians/M03_Raghav_Sen/media/folk_acoustic-summer-walk-152722.mp3",
+            "supports": [
+              "generic capability"
+            ],
+            "strength": "medium"
+          },
+          {
+            "source_file": "artist_profiles/musicians/M03_Raghav_Sen/media/swantwirls-quotthe-shared-moonquot-french-male-vocals-ballad-slow-489373.mp3",
+            "media_id": "swantwirls-quotthe-shared-moonquot-french-male-vocals-ballad-slow-489373.mp3",
+            "source_type": "audio",
+            "timestamp": null,
+            "observation": "Demonstrates capability from artist_profiles/musicians/M03_Raghav_Sen/media/swantwirls-quotthe-shared-moonquot-french-male-vocals-ballad-slow-489373.mp3",
+            "supports": [
+              "generic capability"
+            ],
+            "strength": "medium"
+          }
+        ],
+        "trade_offs": [
+          "Not primarily an acoustic artist",
+          "Artist is not primarily an acoustic artist, which may affect depth of acoustic repertoire"
+        ],
+        "unknowns": [
+          {
+            "dimension": "full_portfolio",
+            "reason": "Missing media"
+          }
+        ],
+        "confidence": {
+          "level": "high",
+          "reason": "Multiple high confidence capabilities."
+        },
+        "assumptions": [
+          "Assuming they are available on the requested date"
+        ]
+      },
+      {
+        "artist_id": "M05",
+        "total_score": 32.0,
+        "factor_scores": {
+          "base_match": 40.0,
+          "confidence_multiplier": 0.8
+        },
+        "matched_requirements": [],
+        "unmatched_requirements": [
+          "Acoustic format"
+        ],
+        "supporting_evidence": [
+          {
+            "source_file": "artist_profiles/musicians/M05_Lunar_Noise/media/VID_20260820_220500_334.mp4",
+            "media_id": "VID_20260820_220500_334.mp4",
+            "source_type": "video",
+            "timestamp": null,
+            "observation": "Demonstrates capability from artist_profiles/musicians/M05_Lunar_Noise/media/VID_20260820_220500_334.mp4",
+            "supports": [
+              "generic capability"
+            ],
+            "strength": "medium"
+          },
+          {
+            "source_file": "artist_profiles/musicians/M05_Lunar_Noise/media/VID_20260820_220534_412.mp4",
+            "media_id": "VID_20260820_220534_412.mp4",
+            "source_type": "video",
+            "timestamp": null,
+            "observation": "Demonstrates capability from artist_profiles/musicians/M05_Lunar_Noise/media/VID_20260820_220534_412.mp4",
+            "supports": [
+              "generic capability"
+            ],
+            "strength": "medium"
+          },
+          {
+            "source_file": "artist_profiles/musicians/M05_Lunar_Noise/media/VID_20260820_220736_918.mp4",
+            "media_id": "VID_20260820_220736_918.mp4",
+            "source_type": "video",
+            "timestamp": null,
+            "observation": "Demonstrates capability from artist_profiles/musicians/M05_Lunar_Noise/media/VID_20260820_220736_918.mp4",
+            "supports": [
+              "generic capability"
+            ],
+            "strength": "medium"
+          }
+        ],
+        "trade_offs": [
+          "Not primarily an acoustic artist",
+          "Not primarily an acoustic artist"
+        ],
+        "unknowns": [
+          {
+            "dimension": "Vocalist",
+            "reason": "No provided media demonstrates singing performance; the available videos are labeled only as supporting a generic capability."
+          },
+          {
+            "dimension": "Guitarist",
+            "reason": "No provided media demonstrates guitar playing; the available videos are labeled only as supporting a generic capability."
+          }
+        ],
+        "confidence": {
+          "level": "medium",
+          "reason": "Some demonstrated capabilities."
+        },
+        "assumptions": [
+          "Assuming they are available on the requested date"
+        ]
+      }
+    ],
+    "improvement_questions": [
+      {
+        "question": "Does the artist have experience performing in Hindi, or can they sing bilingually?",
+        "why_it_matters": "The hirer is open to Hindi/English; confirming language capability ensures the artist can meet this requirement",
+        "affected_ranking_factors": [
+          "language_flexibility"
+        ]
+      },
+      {
+        "question": "Is the artist available next Friday between 7\u201110\u202fPM?",
+        "why_it_matters": "The hirer\u2019s event is scheduled for next Friday 7\u201110\u202fPM; availability is critical for a successful booking",
+        "affected_ranking_factors": [
+          "availability"
+        ]
+      }
+    ]
   }
 ]
