@@ -1,406 +1,27 @@
 [
   {
-    "brief_id": "02_skincare_photography",
-    "top_candidates": [
-      {
-        "artist_id": "PO5",
-        "total_score": 70.0,
-        "factor_scores": {
-          "base_match": 70.0,
-          "confidence_multiplier": 1.0
-        },
-        "matched_requirements": [
-          "Product photography"
-        ],
-        "unmatched_requirements": [],
-        "supporting_evidence": [
-          {
-            "source_file": "artist_profiles/photographers/PO5_Frames/media/20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg",
-            "media_id": "20250720T201756066ZUTC352c0d6f-7e85-44d6-968c-37c505a1ef4c.jpg",
-            "source_type": "image",
-            "timestamp": null,
-            "observation": "Image shows product in a studio setting.",
-            "supports": [
-              "product"
-            ],
-            "strength": "medium"
-          },
-          {
-            "source_file": "artist_profiles/photographers/PO5_Frames/media/20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg",
-            "media_id": "20250720T202151397ZUTCa86353ed-8705-4600-b7c0-d16ee62733c2.jpg",
-            "source_type": "image",
-            "timestamp": null,
-            "observation": "Image shows product in a studio setting.",
-            "supports": [
-              "product"
-            ],
-            "strength": "medium"
-          },
-          {
-            "source_file": "artist_profiles/photographers/PO5_Frames/media/20250720T202449728ZUTC4f82bf1e-7884-45f5-8b42-608dde96b1db.jpg",
-            "media_id": "20250720T202449728ZUTC4f82bf1e-7884-45f5-8b42-608dde96b1db.jpg",
-            "source_type": "image",
-            "timestamp": null,
-            "observation": "Image shows product in a studio setting.",
-            "supports": [
-              "product"
-            ],
-            "strength": "medium"
-          }
-        ],
-        "trade_offs": [],
-        "unknowns": [],
-        "confidence": {
-          "level": "high",
-          "reason": "Multiple media items support capabilities."
-        },
-        "assumptions": [
-          "Assuming they are available on the requested date"
-        ]
-      },
-      {
-        "artist_id": "P02",
-        "total_score": 70.0,
-        "factor_scores": {
-          "base_match": 70.0,
-          "confidence_multiplier": 1.0
-        },
-        "matched_requirements": [
-          "Product photography"
-        ],
-        "unmatched_requirements": [],
-        "supporting_evidence": [
-          {
-            "source_file": "artist_profiles/photographers/P02_Kabir_Mehta/media/581888523_18149152837419095_6510529012749050816_n.jpg",
-            "media_id": "581888523_18149152837419095_6510529012749050816_n.jpg",
-            "source_type": "image",
-            "timestamp": null,
-            "observation": "Image shows product in a studio setting.",
-            "supports": [
-              "product"
-            ],
-            "strength": "medium"
-          },
-          {
-            "source_file": "artist_profiles/photographers/P02_Kabir_Mehta/media/584395302_18193975549332430_7589282168204267782_n.jpg",
-            "media_id": "584395302_18193975549332430_7589282168204267782_n.jpg",
-            "source_type": "image",
-            "timestamp": null,
-            "observation": "Image shows product in a studio setting.",
-            "supports": [
-              "product"
-            ],
-            "strength": "medium"
-          },
-          {
-            "source_file": "artist_profiles/photographers/P02_Kabir_Mehta/media/589130604_18193975528332430_8271070466375639613_n.jpg",
-            "media_id": "589130604_18193975528332430_8271070466375639613_n.jpg",
-            "source_type": "image",
-            "timestamp": null,
-            "observation": "Image shows product in a studio setting.",
-            "supports": [
-              "product"
-            ],
-            "strength": "medium"
-          }
-        ],
-        "trade_offs": [],
-        "unknowns": [],
-        "confidence": {
-          "level": "high",
-          "reason": "Multiple media items support capabilities."
-        },
-        "assumptions": [
-          "Assuming they are available on the requested date"
-        ]
-      }
-    ],
-    "improvement_questions": [
-      {
-        "question": "Do you have a specific usage rights agreement required?",
-        "why_it_matters": "Some artists charge significantly more for full buyout vs limited web usage.",
-        "affected_ranking_factors": [
-          "budget",
-          "deliverables"
-        ]
-      }
-    ]
-  },
-  {
-    "brief_id": "03_vertical_video_email",
-    "top_candidates": [
-      {
-        "artist_id": "VO5",
-        "total_score": 50.0,
-        "factor_scores": {
-          "base_match": 50.0,
-          "confidence_multiplier": 1.0
-        },
-        "matched_requirements": [],
-        "unmatched_requirements": [],
-        "supporting_evidence": [
-          {
-            "source_file": "artist_profiles/video_editors/VO5_Roshan/media/4320_Samsung_Event_Videography.mp4",
-            "media_id": "4320_Samsung_Event_Videography.mp4",
-            "source_type": "video",
-            "timestamp": "00:00:05",
-            "observation": "Video frames demonstrate cinematic editing.",
-            "supports": [
-              "cinematic",
-              "interview"
-            ],
-            "strength": "strong"
-          },
-          {
-            "source_file": "artist_profiles/video_editors/VO5_Roshan/media/4321_Gym_Videography.mov",
-            "media_id": "4321_Gym_Videography.mov",
-            "source_type": "video",
-            "timestamp": "00:00:05",
-            "observation": "Video frames demonstrate cinematic editing.",
-            "supports": [
-              "cinematic",
-              "interview"
-            ],
-            "strength": "strong"
-          },
-          {
-            "source_file": "artist_profiles/video_editors/VO5_Roshan/media/4322_Music_Video.mov",
-            "media_id": "4322_Music_Video.mov",
-            "source_type": "video",
-            "timestamp": "00:00:05",
-            "observation": "Video frames demonstrate cinematic editing.",
-            "supports": [
-              "cinematic",
-              "interview"
-            ],
-            "strength": "strong"
-          }
-        ],
-        "trade_offs": [],
-        "unknowns": [],
-        "confidence": {
-          "level": "high",
-          "reason": "Multiple media items support capabilities."
-        },
-        "assumptions": [
-          "Assuming they are available on the requested date"
-        ]
-      },
-      {
-        "artist_id": "V02",
-        "total_score": 50.0,
-        "factor_scores": {
-          "base_match": 50.0,
-          "confidence_multiplier": 1.0
-        },
-        "matched_requirements": [],
-        "unmatched_requirements": [],
-        "supporting_evidence": [
-          {
-            "source_file": "artist_profiles/video_editors/V02_Rehman_Ali/media/Video-23970.mp4",
-            "media_id": "Video-23970.mp4",
-            "source_type": "video",
-            "timestamp": "00:00:05",
-            "observation": "Video frames demonstrate cinematic editing.",
-            "supports": [
-              "cinematic",
-              "interview"
-            ],
-            "strength": "strong"
-          },
-          {
-            "source_file": "artist_profiles/video_editors/V02_Rehman_Ali/media/Video-41797.mp4",
-            "media_id": "Video-41797.mp4",
-            "source_type": "video",
-            "timestamp": "00:00:05",
-            "observation": "Video frames demonstrate cinematic editing.",
-            "supports": [
-              "cinematic",
-              "interview"
-            ],
-            "strength": "strong"
-          },
-          {
-            "source_file": "artist_profiles/video_editors/V02_Rehman_Ali/media/Video-5523.mp4",
-            "media_id": "Video-5523.mp4",
-            "source_type": "video",
-            "timestamp": "00:00:05",
-            "observation": "Video frames demonstrate cinematic editing.",
-            "supports": [
-              "cinematic",
-              "interview"
-            ],
-            "strength": "strong"
-          }
-        ],
-        "trade_offs": [],
-        "unknowns": [],
-        "confidence": {
-          "level": "high",
-          "reason": "Multiple media items support capabilities."
-        },
-        "assumptions": [
-          "Assuming they are available on the requested date"
-        ]
-      }
-    ],
-    "improvement_questions": []
-  },
-  {
-    "brief_id": "01_cafe_music",
-    "top_candidates": [
-      {
-        "artist_id": "M01",
-        "total_score": 70.0,
-        "factor_scores": {
-          "base_match": 70.0,
-          "confidence_multiplier": 1.0
-        },
-        "matched_requirements": [
-          "Acoustic format"
-        ],
-        "unmatched_requirements": [],
-        "supporting_evidence": [
-          {
-            "source_file": "artist_profiles/musicians/M01_Meera_Arjun/media/35860-408654164.mp4",
-            "media_id": "35860-408654164.mp4",
-            "source_type": "video",
-            "timestamp": "00:00:05",
-            "observation": "Audio segment contains vocals, guitar.",
-            "supports": [
-              "vocals",
-              "guitar"
-            ],
-            "strength": "medium"
-          },
-          {
-            "source_file": "artist_profiles/musicians/M01_Meera_Arjun/media/35863-408654169.mp4",
-            "media_id": "35863-408654169.mp4",
-            "source_type": "video",
-            "timestamp": "00:00:05",
-            "observation": "Audio segment contains vocals, guitar.",
-            "supports": [
-              "vocals",
-              "guitar"
-            ],
-            "strength": "medium"
-          },
-          {
-            "source_file": "artist_profiles/musicians/M01_Meera_Arjun/media/35865-408654178.mp4",
-            "media_id": "35865-408654178.mp4",
-            "source_type": "video",
-            "timestamp": "00:00:05",
-            "observation": "Audio segment contains vocals, guitar.",
-            "supports": [
-              "vocals",
-              "guitar"
-            ],
-            "strength": "medium"
-          }
-        ],
-        "trade_offs": [],
-        "unknowns": [],
-        "confidence": {
-          "level": "high",
-          "reason": "Multiple media items support capabilities."
-        },
-        "assumptions": [
-          "Assuming they are available on the requested date"
-        ]
-      },
-      {
-        "artist_id": "M03",
-        "total_score": 70.0,
-        "factor_scores": {
-          "base_match": 70.0,
-          "confidence_multiplier": 1.0
-        },
-        "matched_requirements": [
-          "Acoustic format"
-        ],
-        "unmatched_requirements": [],
-        "supporting_evidence": [
-          {
-            "source_file": "artist_profiles/musicians/M03_Raghav_Sen/media/alanajordan-letting-go-342368.mp3",
-            "media_id": "alanajordan-letting-go-342368.mp3",
-            "source_type": "audio",
-            "timestamp": "00:00:10",
-            "observation": "Audio segment contains vocals, guitar.",
-            "supports": [
-              "vocals",
-              "guitar"
-            ],
-            "strength": "strong"
-          },
-          {
-            "source_file": "artist_profiles/musicians/M03_Raghav_Sen/media/folk_acoustic-summer-walk-152722.mp3",
-            "media_id": "folk_acoustic-summer-walk-152722.mp3",
-            "source_type": "audio",
-            "timestamp": "00:00:10",
-            "observation": "Audio segment contains vocals, guitar.",
-            "supports": [
-              "vocals",
-              "guitar"
-            ],
-            "strength": "strong"
-          },
-          {
-            "source_file": "artist_profiles/musicians/M03_Raghav_Sen/media/swantwirls-quotthe-shared-moonquot-french-male-vocals-ballad-slow-489373.mp3",
-            "media_id": "swantwirls-quotthe-shared-moonquot-french-male-vocals-ballad-slow-489373.mp3",
-            "source_type": "audio",
-            "timestamp": "00:00:10",
-            "observation": "Audio segment contains vocals, guitar.",
-            "supports": [
-              "vocals",
-              "guitar"
-            ],
-            "strength": "strong"
-          }
-        ],
-        "trade_offs": [],
-        "unknowns": [],
-        "confidence": {
-          "level": "high",
-          "reason": "Multiple media items support capabilities."
-        },
-        "assumptions": [
-          "Assuming they are available on the requested date"
-        ]
-      }
-    ],
-    "improvement_questions": [
-      {
-        "question": "Do you have a PA system available on-site?",
-        "why_it_matters": "If not, artists requiring complex setups will be downranked.",
-        "affected_ranking_factors": [
-          "hard_constraints",
-          "format"
-        ]
-      }
-    ]
-  },
-  {
-    "brief_id": "04_leadership_event_photos",
+    "brief_id": "02_skincare_photography_chat",
     "top_candidates": [
       {
         "artist_id": "P03",
-        "total_score": 50.0,
+        "total_score": 32.0,
         "factor_scores": {
-          "base_match": 50.0,
-          "confidence_multiplier": 1.0
+          "base_match": 40.0,
+          "confidence_multiplier": 0.8
         },
         "matched_requirements": [],
-        "unmatched_requirements": [],
+        "unmatched_requirements": [
+          "Product photography"
+        ],
         "supporting_evidence": [
           {
             "source_file": "artist_profiles/photographers/P03_Leena_Thomas/media/472955981_18135833542377008_469825668246561939_n.jpg",
             "media_id": "472955981_18135833542377008_469825668246561939_n.jpg",
             "source_type": "image",
             "timestamp": null,
-            "observation": "Image shows events in a on-location setting.",
+            "observation": "Demonstrates capability from artist_profiles/photographers/P03_Leena_Thomas/media/472955981_18135833542377008_469825668246561939_n.jpg",
             "supports": [
-              "events",
-              "portraits"
+              "generic capability"
             ],
             "strength": "medium"
           },
@@ -409,10 +30,9 @@
             "media_id": "474898919_18135833524377008_7619101935522501329_n.jpg",
             "source_type": "image",
             "timestamp": null,
-            "observation": "Image shows events in a on-location setting.",
+            "observation": "Demonstrates capability from artist_profiles/photographers/P03_Leena_Thomas/media/474898919_18135833524377008_7619101935522501329_n.jpg",
             "supports": [
-              "events",
-              "portraits"
+              "generic capability"
             ],
             "strength": "medium"
           },
@@ -421,19 +41,25 @@
             "media_id": "495094082_18480800233070732_5072622893058829221_n.jpg",
             "source_type": "image",
             "timestamp": null,
-            "observation": "Image shows events in a on-location setting.",
+            "observation": "Demonstrates capability from artist_profiles/photographers/P03_Leena_Thomas/media/495094082_18480800233070732_5072622893058829221_n.jpg",
             "supports": [
-              "events",
-              "portraits"
+              "generic capability"
             ],
             "strength": "medium"
           }
         ],
-        "trade_offs": [],
-        "unknowns": [],
+        "trade_offs": [
+          "Doesn't specialize in product photography"
+        ],
+        "unknowns": [
+          {
+            "dimension": "full_portfolio",
+            "reason": "Missing media"
+          }
+        ],
         "confidence": {
-          "level": "high",
-          "reason": "Multiple media items support capabilities."
+          "level": "medium",
+          "reason": "Some demonstrated capabilities."
         },
         "assumptions": [
           "Assuming they are available on the requested date"
@@ -441,23 +67,24 @@
       },
       {
         "artist_id": "P01",
-        "total_score": 50.0,
+        "total_score": 32.0,
         "factor_scores": {
-          "base_match": 50.0,
-          "confidence_multiplier": 1.0
+          "base_match": 40.0,
+          "confidence_multiplier": 0.8
         },
         "matched_requirements": [],
-        "unmatched_requirements": [],
+        "unmatched_requirements": [
+          "Product photography"
+        ],
         "supporting_evidence": [
           {
             "source_file": "artist_profiles/photographers/P01_Aanya_Rao/media/587772091_18388610977181645_5390859402103325237_n.jpg",
             "media_id": "587772091_18388610977181645_5390859402103325237_n.jpg",
             "source_type": "image",
             "timestamp": null,
-            "observation": "Image shows events in a on-location setting.",
+            "observation": "Demonstrates capability from artist_profiles/photographers/P01_Aanya_Rao/media/587772091_18388610977181645_5390859402103325237_n.jpg",
             "supports": [
-              "events",
-              "portraits"
+              "generic capability"
             ],
             "strength": "medium"
           },
@@ -466,10 +93,9 @@
             "media_id": "588248682_18388610974181645_2768095694106311115_n.jpg",
             "source_type": "image",
             "timestamp": null,
-            "observation": "Image shows events in a on-location setting.",
+            "observation": "Demonstrates capability from artist_profiles/photographers/P01_Aanya_Rao/media/588248682_18388610974181645_2768095694106311115_n.jpg",
             "supports": [
-              "events",
-              "portraits"
+              "generic capability"
             ],
             "strength": "medium"
           },
@@ -478,34 +104,31 @@
             "media_id": "654876028_18440827159113295_420923875456327857_n.jpg",
             "source_type": "image",
             "timestamp": null,
-            "observation": "Image shows events in a on-location setting.",
+            "observation": "Demonstrates capability from artist_profiles/photographers/P01_Aanya_Rao/media/654876028_18440827159113295_420923875456327857_n.jpg",
             "supports": [
-              "events",
-              "portraits"
+              "generic capability"
             ],
             "strength": "medium"
           }
         ],
-        "trade_offs": [],
-        "unknowns": [],
+        "trade_offs": [
+          "Doesn't specialize in product photography"
+        ],
+        "unknowns": [
+          {
+            "dimension": "full_portfolio",
+            "reason": "Missing media"
+          }
+        ],
         "confidence": {
-          "level": "high",
-          "reason": "Multiple media items support capabilities."
+          "level": "medium",
+          "reason": "Some demonstrated capabilities."
         },
         "assumptions": [
           "Assuming they are available on the requested date"
         ]
       }
     ],
-    "improvement_questions": [
-      {
-        "question": "Do you have a specific usage rights agreement required?",
-        "why_it_matters": "Some artists charge significantly more for full buyout vs limited web usage.",
-        "affected_ranking_factors": [
-          "budget",
-          "deliverables"
-        ]
-      }
-    ]
+    "improvement_questions": []
   }
 ]

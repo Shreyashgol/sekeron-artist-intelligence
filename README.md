@@ -6,6 +6,45 @@ This repository contains a modular Python system designed to process unstructure
 ## 2. Problem Statement
 Hirer briefs are often incomplete and highly subjective. Artist profiles are unstructured, containing a mix of text, audio, images, and video. Evaluating artists based on unobservable claims (e.g., "professionalism", "quality") introduces bias and hallucination. The challenge is to match intent with capability using strict traceability and explainability, and gracefully handle corrupted data.
 
+
+## System Architecture
+
+```text
+Artist Profiles + Media + Hirer Conversations
+                    │
+                    ▼
+             Data Ingestion
+                    │
+        ┌───────────┼───────────┐
+        ▼           ▼           ▼
+      Text        Images      Audio/Video
+      Groq       Vision API   Whisper +
+    GPT-OSS 20B                 FFmpeg
+        │           │           │
+        └───────────┼───────────┘
+                    ▼
+             Evidence Layer
+                    │
+                    ▼
+          Artist Intelligence
+                    │
+        Hirer → Intent Extraction
+                    │
+                    ▼
+        Deterministic Python Ranker
+                    │
+                    ▼
+              Top 2 Artists
+                    │
+                    ▼
+          Explainable Recommendation
+                    │
+              Follow-up Update
+                    │
+                    ▼
+             Re-ranking / Update
+```
+
 ## 3. Architecture
 The architecture consists of a deterministic pipeline:
 1. **Media Ingestion & Sampling** (`src/ingestion.py`, `src/media_selection.py`)
