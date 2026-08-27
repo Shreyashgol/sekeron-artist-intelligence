@@ -1,5 +1,6 @@
 import json
 import logging
+import os
 from typing import List, Dict, Any, Literal
 from pathlib import Path
 from pydantic import BaseModel, Field
@@ -10,6 +11,7 @@ from src.schemas import (
 )
 from src.ingestion import ArtistProfileRecord
 from src.llm_client import LLMClient
+from src.video_analysis import extract_representative_frames
 
 logger = logging.getLogger(__name__)
 
@@ -58,17 +60,51 @@ class CapabilityExtractor:
             logger.error(f"Text extraction failed: {e}")
             claims = [record.profile_text[:100]]
 
-        # 2. Media Observation (Mocked for assignment as vision/audio models require complex pipelines)
+        # 2. Media Observation
         evidence_list = []
+        cat = record.inferred_category
+        is_video_editor = cat == 'video_editors' or 'video' in cat
+        
         for m in record.media[:3]:
-            evidence_list.append(Evidence(
-                source_file=m.source_path,
-                media_id=m.source_path.split('/')[-1],
-                source_type="image" if m.media_type == "image" else m.media_type,
-                observation=f"Demonstrates capability from {m.source_path}",
-                supports=["generic capability"],
-                strength="medium"
-            ))
+            if is_video_editor and m.media_type == "video":
+                try:
+                    full_path = os.path.join("data", m.source_path)
+                    frames = extract_representative_frames(full_path, num_frames=2) # 2 frames to save API time
+                    if not frames:
+                        raise ValueError("No frames extracted")
+                    for idx, frame in enumerate(frames):
+                        sys_prompt = "You are a video editor intelligence expert. Analyze the provided frame."
+                        usr_prompt = "Identify observable evidence for: pacing, cutting style, transitions, storytelling, color treatment, captions, graphics, aspect ratio, audio synchronization, short-form vs long-form characteristics. Do not infer client quality, popularity, reliability, or professionalism. Provide a concise observation."
+                        obs = self.llm_client.analyze_image(sys_prompt, usr_prompt, frame["base64_image"])
+                        evidence_list.append(Evidence(
+                            source_file=m.source_path,
+                            media_id=f"{m.source_path.split('/')[-1]}_{idx}",
+                            source_type="video",
+                            timestamp=frame["timestamp"],
+                            observation=obs,
+                            supports=["video_editing_skills"],
+                            strength="strong"
+                        ))
+                except Exception as e:
+                    logger.error(f"Vision analysis failed for {m.source_path}: {e}")
+                    evidence_list.append(Evidence(
+                        source_file=m.source_path,
+                        media_id=m.source_path.split('/')[-1],
+                        source_type="video",
+                        observation=f"Demonstrates capability from {m.source_path} (Fallback)",
+                        supports=["generic capability"],
+                        strength="medium"
+                    ))
+            else:
+                evidence_list.append(Evidence(
+                    source_file=m.source_path,
+                    media_id=m.source_path.split('/')[-1],
+                    source_type="image" if m.media_type == "image" else m.media_type,
+                    observation=f"Demonstrates capability from {m.source_path}",
+                    supports=["generic capability"],
+                    strength="medium"
+                ))
+
             
         # 3. Normalization
         norm_input = f"PROFILE CLAIMS:\n{json.dumps(claims)}\n\nEVIDENCE OBSERVATIONS:\n"

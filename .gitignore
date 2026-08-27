@@ -5,4 +5,5 @@ data/
 debug/
 src/__pycache__/
 prompts/
-
+test_intelligence.py
+test_schemas.py
